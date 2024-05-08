@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DataHive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <!--Flowbite-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <!--TailwindCSS-->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body class="bg-white">
+    <!--home/hero section-->
+    <section class="py-8 md:py-16">
+
+        <div class="container max-w-screen-xl mx-auto px-4 min-h-screen">
+            <nav class="flex-wrap lg:flex items-center justify-between mb-20 lg:mb-40" x-data="{navbarOpen:false}">
+                <div class="flex items-center justify-between mb-10 lg:mb-0">
+                    <a href="#" class="flex items-center gap-4">
+                        <img src="/assets/image/hive.svg" alt="DataHive Logo">
+                        <p class="text-2xl font-bold text-yellow-700">DataHive</p>
+                    </a>
+                </div>
+                <ul class="hidden lg:flex flex-col lg:flex-row lg:items-center lg:space-x-20" :class="{'hidden':!navbarOpen, 'flex':navbarOpen}">
+                    <li class="font-medium text-yellow-700 text-lg hover:text-yellow-500 transition ease-in-out duration-300 mb-5 lg:mb-0">
+                        <a href="#">Services</a>
+                    </li>
+
+                    <li class="font-medium text-yellow-700 text-lg hover:text-yellow-500 transition ease-in-out duration-300 mb-5 lg:mb-0">
+                        <a href="#">Works</a>
+                    </li>
+                    <li class="font-medium text-yellow-700 text-lg hover:text-yellow-500 transition ease-in-out duration-300 mb-5 lg:mb-0">
+                        <a href="toc.html">Terms and
+                            Conditions</a>
+                    </li>
+
+                    <li class="px-8 py-3 font-medium text-yellow-700 text-lg text-center border-2 border-yellow-700 rounded-md hover:bg-yellow-700 hover:text-white transition ease-linear duration-300">
+                        <a href="#">Connect</a>
+                    </li>
+                </ul>
+            </nav>
+            <header class="flex flex-col lg:flex-row justify-between">
+                <div class="mx-auto text-center xl:text-left xl:mx-0 mb-20 xl:mb-0">
+                    <h1 class="font-bold text-gray-700 text-3xl md:text-6xl leading-tight mb-10">A digital <br> Product design <br> Agency</h1>
+                    <p class="font-normal text-gray-500 text-sm md:text-lg mb-10">How we provide it.Lorem ipsum dolor,
+                        sit amet consectetur adipisicing elit. Dolore
+                        explicabo aliquam dolores laudantium soluta tempora iusto excepturi sunt ipsa molestiae
+                        velit
+                        ipsam eveniet.</p>
+                    <div class="flex items-center justify-center gap-4 lg:justify-start">
+                        <a class="px-8 py-3 bg-yellow-700 font-medium text-white text-md md:text-lg rounded-md hover:bg-yellow-500 transition ease-in-out duration-300" href="#">Contact Us
+                        </a>
+                        <a href="#" class="px-8 py-3 bg-transparent font-medium text-yellow-700 text-md md:text-lg border-2 border-yellow-700 rounded-md hover:bg-yellow-700 hover:text-white transition ease-in-out duration-300">
+                            Sign Up
+                        </a>
+                    </div>
+                </div>
+                <div class="mx-auto xl:mx-0">
+                    <img src="/assets/image/projections.svg" alt="">
+                </div>
+            </header>
+        </div>
+
+    </section>
+
+    <section id="features" class="container mx-auto">
+        <div class="grid grid-cols-1 place-items-center p-4 lg:grid-cols-3">
+            <div class="p-6 max-w-sm bg-white rounded-lg">
+                <img width="50" height="50" src="/assets/image/hive.svg" alt="">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Feature one
+                    </h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Quia nobis aut nesciunt numquam veniam laborum non veritatis repudiandae vero?</p>
+            </div>
+            <div class="p-6 max-w-sm bg-white rounded-lg">
+                <img width="50" height="50" src="/assets/image/hive.svg" alt="">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Feature two
+                    </h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Quia nobis aut nesciunt numquam veniam laborum non veritatis repudiandae vero?</p>
+            </div>
+            <div class="p-6 max-w-sm bg-white rounded-lg">
+                <img width="50" height="50" src="/assets/image/hive.svg" alt="">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Feature three
+                    </h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Quia nobis aut nesciunt numquam veniam laborum non veritatis repudiandae vero?</p>
+            </div>
+        </div>
+
+    </section>
+    <section id="benefitsOne" class="container grid mx-auto my-auto">
+        <div class="grid grid-cols-1 place-items-center p-4 lg:grid-cols-2">
+            <div class="flex justify-center items-center">
+                <img src="/assets/image/business_analytics.svg" alt="">
+            </div>
+            <div class="flex flex-col p-4">
+                <h3 class="inline text-4xl font-bold text-gray-900">Benefit of feature one</h3>
+                <p class="text-gray-800 p4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto magni cumque
+                    culpa molestiae blanditiis. Vitae eveniet quas et incidunt magni reiciendis eum sint soluta
+                    repudiandae quis. Enim commodi nisi incidunt.</p>
+            </div>
+
+        </div>
+
+    </section>
+    <section id="benefitsTwo" class="container grid mx-auto my-8">
+        <div class="grid grid-cols-1 place-items-center p-4 lg:grid-cols-2">
+            <div class="order-last p-4 lg:order-first">
+                <h3 class="inline text-4xl font-bold text-gray-900">Benefit of feature two</h3>
+                <p class="text-gray-800 p4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto magni cumque
+                    culpa molestiae blanditiis. Vitae eveniet quas et incidunt magni reiciendis eum sint soluta
+                    repudiandae quis. Enim commodi nisi incidunt.</p>
+            </div>
+            <div class="hidden p-4 md:flex">
+                <img src="/assets/image/business_analytics.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="benefitsThree" class="container grid mx-auto my-auto">
+        <div class="grid grid-cols-1 place-items-center p-4 lg:grid-cols-2">
+            <div class="p-4">
+                <img src="assets/image/business_analytics.svg" alt="">
+            </div>
+            <div class="p-4">
+                <h3 class="inline text-4xl font-bold text-gray-900">Benefit of feature three</h3>
+                <p class="text-gray-800 p4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto magni cumque
+                    culpa molestiae blanditiis. Vitae eveniet quas et incidunt magni reiciendis eum sint soluta
+                    repudiandae quis. Enim commodi nisi incidunt.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-900">
+        <div class="flex flex-col justify-center items-center">
+            <a href="https://play.google.com/store/apps/details?id=com.datahiveorg.datahive">
+                <img height="150" width="150" src="/assets/image/google-play-badge-logo.svg" alt="Get it on google play">
+            </a>
+            <a href="toc.html" class="p-2 text-sm font-semibold text-white hover:underline">Terms and Conditions</a>
+            <p class="p-2 font-medium text-white">&copy;DataHive&nbsp;
+                <script>
+                    date = new Date();
+                    document.write(date.getUTCFullYear());
+                </script>
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+
+</html>
