@@ -15,7 +15,18 @@ module.exports = {
                 'bee-yellow': 'fcbd2b',
                 'black': '#000000'
 
-            }
+            },
+            bannerOverlayBefore: {
+                content: '""',
+                display: 'block',
+                position: 'absolute',
+                top: 0,
+                bottom: 0,
+                left: 0,
+                right: 0,
+                background: '#000000',
+                opacity: 0.6
+            },
         },
     },
     plugins: [require('flowbite/plugin')],

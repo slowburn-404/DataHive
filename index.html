@@ -24,25 +24,28 @@
             <div id="controls-carousel" class="relative w-full h-full" data-carousel="static">
                 <!-- Carousel wrapper -->
                 <div class="overflow-hidden relative h-full">
-                    <!-- Item 1 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/assets/image/background1.jpg" class="block absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2 before:bg-black before:opacity-60" alt="...">
-                    </div>
-                    <!-- Item 2 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                        <img src="/assets/image/background2.jpg" class="block absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2 before:bg-black before:opacity-60" alt="...">
-                    </div>
-                    <!-- Item 3 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/assets/image/background3.jpg" class="block absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2 before:bg-black before:opacity-60" alt="...">
-                    </div>
-                    <!-- Item 4 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/assets/image/background4.jpg" class="block absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2 before:bg-black before:opacity-60" alt="...">
-                    </div>
-                    <!-- Item 5 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/assets/image/background5.jpg" class="block absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2 before:bg-black before:opacity-60" alt="...">
+                    <!-- Overlay -->
+                    <div class="absolute inset-0 z-10 bg-black opacity-60">
+                        <!-- Item 1 -->
+                        <div class="hidden opacity-60 duration-700 ease-in-out" data-carousel-item>
+                            <img src="/assets/image/background1.jpg" class="block absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden opacity-60 duration-700 ease-in-out" data-carousel-item="active">
+                            <img src="/assets/image/background2.jpg" class="block absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden opacity-60 duration-700 ease-in-out" data-carousel-item>
+                            <img src="/assets/image/background3.jpg" class="block absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                        </div>
+                        <!-- Item 4 -->
+                        <div class="hidden opacity-60 duration-700 ease-in-out" data-carousel-item>
+                            <img src="/assets/image/background4.jpg" class="block absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                        </div>
+                        <!-- Item 5 -->
+                        <div class="hidden opacity-60 duration-700 ease-in-out" data-carousel-item>
+                            <img src="/assets/image/background5.jpg" class="block absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                        </div>
                     </div>
                 </div>
                 <!-- Slider controls -->
@@ -64,7 +67,7 @@
                 </button>
             </div>
 
-            <div class="container absolute inset-0 z-40 px-4 py-10 mx-auto w-full max-w-screen-xl h-full md:py-16">
+            <div class="container absolute inset-0 z-20 px-4 py-10 mx-auto w-full max-w-screen-xl h-full md:py-16">
                 <nav class="flex-wrap justify-between items-center mb-20 lg:flex lg:mb-40" x-data="{navbarOpen:false}">
                     <div class="flex justify-between items-center mb-10 lg:mb-0">
                         <a href="#" class="flex gap-4 items-center">
@@ -84,8 +87,7 @@
                             <a href="#">Works</a>
                         </li>
                         <li class="mb-5 text-lg font-medium text-yellow-700 transition duration-300 ease-in-out hover:text-yellow-500 lg:mb-0">
-                            <a href="toc.html">Terms and
-                                Conditions</a>
+                            <a href="toc.html">Privacy Policy</a>
                         </li>
 
                         <li class="px-8 py-3 text-lg font-medium text-center text-yellow-700 rounded-md border-2 border-yellow-700 transition duration-300 ease-linear hover:bg-yellow-700 hover:text-white">
