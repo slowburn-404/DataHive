@@ -12,20 +12,12 @@ module.exports = {
                 Inter: ['Inter', 'sans-serif']
             },
             colors: {
-                'bee-yellow': 'fcbd2b',
-                'black': '#000000'
+                'bee-yellow': '#fcb91d',
+                'black': '#000000',
+                yellow: {
+                    700: '#fcb91d'
+                }
 
-            },
-            bannerOverlayBefore: {
-                content: '""',
-                display: 'block',
-                position: 'absolute',
-                top: 0,
-                bottom: 0,
-                left: 0,
-                right: 0,
-                background: '#000000',
-                opacity: 0.6
             },
         },
     },
