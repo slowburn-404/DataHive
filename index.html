@@ -20,8 +20,8 @@
 <body class="bg-white">
     <main>
         <!--home/hero section-->
-        <section class="relative w-full h-screen">
-            <div id="controls-carousel" class="relative w-full h-full" data-carousel="static">
+        <section class="w-full h-screen">
+            <div id="controls-carousel" class="relative w-full h-screen" data-carousel="static">
                 <!-- Carousel wrapper -->
                 <div class="overflow-hidden relative h-full">
                     <!-- Overlay -->
@@ -67,7 +67,7 @@
                 </button>
             </div>
 
-            <div class="container absolute inset-0 z-20 px-4 py-10 mx-auto w-full max-w-screen-xl h-full md:py-16">
+            <div class="container absolute inset-0 z-20 px-4 py-8 mx-auto w-full max-w-screen-xl h-full md:py-16">
                 <nav class="flex-wrap justify-between items-center mb-20 lg:flex lg:mb-40" x-data="{navbarOpen:false}">
                     <div class="flex justify-between items-center mb-10 lg:mb-0">
                         <a href="#" class="flex gap-4 items-center">
@@ -95,7 +95,7 @@
                         </li>
                     </ul>
                 </nav>
-                <header class="flex flex-col justify-between lg:flex-row">
+                <header class="flex flex-col items-center lg:flex-row">
                     <div class="mx-auto mb-20 text-center xl:text-center xl:mx-0 xl:mb-0">
                         <h1 class="mb-10 text-3xl font-bold leading-tight text-white md:text-6xl">Value we provide
                         </h1>
@@ -118,41 +118,50 @@
 
         </section>
 
-        <section id="features" class="container mx-auto">
-            <div class="grid grid-cols-1 place-items-center p-4 lg:grid-cols-3">
-                <div class="p-6 max-w-sm bg-white rounded-lg">
-                    <img width="50" height="50" src="/assets/image/hive.svg" alt="">
-                    <a href="#">
-                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Feature one
-                        </h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit. Quia nobis aut nesciunt numquam veniam laborum non veritatis repudiandae vero?
-                    </p>
-                </div>
-                <div class="p-6 max-w-sm bg-white rounded-lg">
-                    <img width="50" height="50" src="/assets/image/hive.svg" alt="">
-                    <a href="#">
-                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Feature two
-                        </h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit. Quia nobis aut nesciunt numquam veniam laborum non veritatis repudiandae vero?
-                    </p>
-                </div>
-                <div class="p-6 max-w-sm bg-white rounded-lg">
-                    <img width="50" height="50" src="/assets/image/hive.svg" alt="">
-                    <a href="#">
-                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Feature
-                            three
-                        </h5>
-                    </a>
-                    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit. Quia nobis aut nesciunt numquam veniam laborum non veritatis repudiandae vero?
-                    </p>
+        <!--Services-->
+        <section id="services" class="py-8 md:py-16">
+            <div class="container px-4 mx-auto max-w-screen-xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <div class="mb-10 text-center xl:mb-0">
+                        <div class="flex justify-center items-center">
+                            <div class="flex justify-center py-7 mb-5 w-20 rounded-md md:mb-10">
+                                <img src="/assets/image/mobile-code.svg" alt="Mobile Development Icon" />
+                            </div>
+                        </div>
+
+                        <h2 class="mb-5 text-xl font-semibold text-gray-700 md:text-3xl">Mobile App Development</h2>
+
+                        <p class="text-sm font-normal text-gray-400 md:text-lg">Excepteur sint occaecat cupidatat non
+                            <br> proident, sunt in culpa qui officia deserunt <br> mollit anim id est laborum.</p>
+                    </div>
+
+                    <div class="mb-10 text-center md:mb-0">
+                        <div class="flex justify-center items-center">
+                            <div class="flex justify-center py-7 mb-5 w-20 rounded-md md:mb-10">
+                                <img src="/assets/image/web-development.svg" alt="Web Development Icon" />
+                            </div>
+                        </div>
+
+                        <h2 class="mb-5 text-xl font-semibold text-gray-700 md:text-3xl">Web Development</h2>
+
+                        <p class="text-sm font-normal text-gray-400 md:text-lg">Excepteur sint occaecat cupidatat non
+                            <br> proident, sunt in culpa qui officia deserunt <br> mollit anim id est laborum.</p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="flex justify-center items-center">
+                            <div class="flex justify-center py-7 mb-5 w-20 rounded-md md:mb-10">
+                                <img src="/assets/image/seo.svg" alt="Search Engine Optimization Icon" />
+                            </div>
+                        </div>
+
+                        <h2 class="mb-5 text-xl font-semibold text-gray-700 md:text-3xl">Search Engine Optimization</h2>
+
+                        <p class="text-sm font-normal text-gray-400 md:text-lg">Excepteur sint occaecat cupidatat non
+                            <br> proident, sunt in culpa qui officia deserunt <br> mollit anim id est laborum.</p>
+                    </div>
                 </div>
             </div>
-
         </section>
         <section id="benefitsOne" class="container grid mx-auto my-auto">
             <div class="grid grid-cols-1 place-items-center p-4 lg:grid-cols-2">
