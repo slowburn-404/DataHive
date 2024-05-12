@@ -22,10 +22,10 @@
     <nav class="overflow-hidden fixed top-0 left-0 z-20 px-2 py-2.5 w-full bg-white sm:px-4" aria-label="Global">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
             <a href="index.html" class="flex items-center">
-                <img class="p-1 mr-3 h-12 hover:opacity-80" src="hive.svg" alt="DataHive">
-                <p class="text-2xl font-bold text-yellow-900">DataHive</p>
+                <img class="p-1 mr-3 h-12 hover:opacity-80" src="/assets/image/hive.svg" alt="DataHive">
+                <p class="text-2xl font-bold text-yellow-300">DataHive</p>
             </a>
-            <button type="button" onclick="location.href = 'https://play.google.com/store/apps/details?id=com.datahiveorg.datahive';" class="px-5 py-2 mr-3 text-sm font-medium text-center text-white bg-yellow-900 rounded-full hover:opacity-80 md:mr-0">
+            <button type="button" onclick="location.href = 'https://play.google.com/store/apps/details?id=com.datahiveorg.datahive';" class="px-5 py-2 mr-3 text-sm font-medium text-center text-white bg-yellow-400 rounded-full hover:opacity-80 md:mr-0">
                 Download
             </button>
         </div>
@@ -219,18 +219,71 @@
 
         </div>
     </section>
-    <footer class="bg-gray-900">
-        <div class="flex flex-col justify-center items-center">
-            <a href="https://play.google.com/store/apps/details?id=com.datahiveorg.datahive">
-                <img height="150" width="150" src="google-play-badge-logo.svg" alt="Get it on google play">
-            </a>
-            <p class="pb-2 font-medium text-white">&copy;DataHive&nbsp;
-                <script>
-                    date = new Date();
-                    document.write(date.getUTCFullYear());
-                </script>
-            </p>
-        </div>
+    <footer class="py-8 bg-yellow-50 md:py-16">
+
+        <div class="container px-4 mx-auto max-w-screen-xl">
+
+            <div class="flex-col justify-between space-x-10 text-center lg:flex md:flex-row lg:text-left lg:justify-between">
+                <div class="mb-10 lg:mb-0">
+                    <img src="assets/image/hive.svg" alt="Image" class="mx-auto mb-5 lg:mx-0">
+
+                    <p class="font-normal text-gray-400 text-md">Excepteur sint occaecat cupidatat non <br> proident,
+                        sunt in culpa qui officia deserunt <br> mollit anim id est laborum.</p>
+                </div>
+
+                <div class="mb-10 space-y-4 lg:mb-0">
+                    <h4 class="mb-6 text-lg font-semibold text-gray-500">Our services</h4>
+
+                    <a href="#" class="block font-normal text-gray-400 transition duration-300 ease-in-out text-md hover:text-gray-700">Pricing</a>
+
+                    <a href="#" class="block font-normal text-gray-400 transition duration-300 ease-in-out text-md hover:text-gray-700">UI
+                        Design</a>
+
+                    <a href="#" class="block font-normal text-gray-400 transition duration-300 ease-in-out text-md hover:text-gray-700">Animation</a>
+
+                    <a href="#" class="block font-normal text-gray-400 transition duration-300 ease-in-out text-md hover:text-gray-700">Development</a>
+                </div>
+
+                <div class="mb-10 space-y-4 lg:mb-0">
+                    <h4 class="mb-6 text-lg font-semibold text-gray-500">Our Company</h4>
+
+                    <a href="#" class="block font-normal text-gray-400 transition duration-300 ease-in-out text-md hover:text-gray-700">Reporting</a>
+
+                    <a href="#" class="block font-normal text-gray-400 transition duration-300 ease-in-out text-md hover:text-gray-700">Get
+                        in Touch</a>
+
+                    <a href="#" class="block font-normal text-gray-400 transition duration-300 ease-in-out text-md hover:text-gray-700">Management</a>
+                </div>
+
+                <div class="space-y-4">
+                    <h4 class="mb-6 text-lg font-semibold text-gray-500">Our services</h4>
+
+                    <a href="#" class="block font-normal text-gray-400 transition duration-300 ease-in-out text-md hover:text-gray-700">121
+                        King St, VIC3000, US</a>
+
+                    <a href="#" class="block font-normal text-gray-400 transition duration-300 ease-in-out text-md hover:text-gray-700">888-123-42287</a>
+
+                    <a href="#" class="block font-normal text-gray-400 transition duration-300 ease-in-out text-md hover:text-gray-700">info@example.com</a>
+                </div>
+            </div>
+
+            <hr class="flex justify-center mt-10 text-gray-300">
+
+            <div class="flex justify-center items-center">
+
+                <p class="mt-5 font-normal text-center text-gray-400 text-md">&copy;</p>
+                <p class="mx-1 mt-5 font-normal text-center text-gray-400 text-md">
+                    <script>
+                        const date = new Date()
+                        document.write(date.getUTCFullYear())
+                    </script>
+                </p>
+                <p class="mt-5 font-normal text-center text-gray-400 text-md"> DataHive. All rights reserved.
+                </p>
+            </div>
+
+        </div> <!-- container.// -->
+
     </footer>
     <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
 </body>
