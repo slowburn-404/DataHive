@@ -13,10 +13,7 @@ module.exports = {
             },
             colors: {
                 'bee-yellow': '#fcb91d',
-                'black': '#000000',
-                yellow: {
-                    700: '#fcb91d'
-                }
+                'black': '#000000'
 
             },
         },
