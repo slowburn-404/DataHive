@@ -29,8 +29,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Install Dependancies
-        run: npm install -D tailwindcss $$ npx tailwindcss --watch
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
@@ -43,5 +41,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Add tailwind dependency
-        run: npm install -D tailwindcss 
