@@ -15,7 +15,7 @@
     <!--Flowbite-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet">
     <!--TailwindCSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body class="bg-white">
@@ -38,7 +38,7 @@
                         <img src="assets/image/background3.jpg" class="block absolute w-full h-full" alt="...">
                     </div>
                     <!-- Item 4 -->
-                    <div class="hidden brightness-50 duration-700 ease-in-out" data-carousel-item="active">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
                         <img src="assets/image/background8.jpg" class="block object-cover absolute w-full h-full" alt="...">
                     </div>
                     <!-- Item 5 -->
@@ -66,15 +66,15 @@
                             <i data-feather="menu"></i>
                         </button>
                     </div>
-                    <ul class="hidden flex-col lg:flex lg:flex-row lg:items-center lg:space-x-20" :class="{'hidden':!navbarOpen, 'flex':navbarOpen}">
-                        <li class="mb-5 text-lg font-medium text-white transition duration-300 ease-in-out hover:text-yellow-300 lg:mb-0">
+                    <ul class="hidden flex-col py-4 lg:flex lg:flex-row lg:items-center lg:space-x-20" :class="{'hidden':!navbarOpen, 'flex':navbarOpen}">
+                        <li class="mb-5 text-lg font-medium text-yellow-300 transition duration-300 ease-in-out hover:underline lg:mb-0">
                             <a href="#services">Services</a>
                         </li>
 
-                        <li class="mb-5 text-lg font-medium text-white transition duration-300 ease-in-out hover:text-yellow-300 lg:mb-0">
+                        <li class="mb-5 text-lg font-medium text-yellow-300 transition duration-300 ease-in-out hover:underline lg:mb-0">
                             <a href="#our-works">Works</a>
                         </li>
-                        <li class="mb-5 text-lg font-medium text-white transition duration-300 ease-in-out hover:text-yellow-300 lg:mb-0">
+                        <li class="mb-5 text-lg font-medium text-yellow-300 transition duration-300 ease-in-out hover:underline lg:mb-0">
                             <a href="toc.html">Privacy Policy</a>
                         </li>
                     </ul>
@@ -83,12 +83,12 @@
                     <h1 class="text-4xl font-extrabold text-yellow-300 sm:text-8xl md:text-6xl">A digital
                         product design agency
                     </h1>
-                    <p class="font-normal leading-tight text-white text-md md:text-lg">
+                    <p class="font-normal leading-tight text-yellow-300 text-md md:text-lg">
                         Empower Your Business with Custom Digital Solutions. Helping You Grow Your Brand and Succeed in
                         the Digital Age
                     </p>
                     <div class="flex gap-4 justify-center items-center">
-                        <a class="px-8 py-3 font-medium text-white bg-yellow-300 rounded-lg transition duration-300 ease-in-out text-md md:text-lg hover:bg-yellow-500" href="#contact-form">Contact Us
+                        <a class="px-8 py-3 font-medium text-white bg-yellow-300 rounded-lg transition duration-300 ease-in-out text-md md:text-lg hover:bg-yellow-500" href="#contact-us">Contact Us
                         </a>
                     </div>
                 </div>
@@ -161,9 +161,9 @@
 
                 <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 xl:gap-10">
 
-                    <div class="max-w-sm bg-white rounded-lg shadow-lg">
+                    <div class="max-w-sm bg-white rounded-lg shadow-lg mx-auto">
                         <a href="#">
-                            <img class="object-cover rounded-t-lg" src="assets/image/msingi.png" alt="Msingi School" />
+                            <img class="object-cover rounded-t-lg" src="./assets/image/msingi.png" alt="Msingi School" />
                         </a>
                         <div class="p-5">
                             <p class="text-base font-normal text-gray-400">Web Development</p>
@@ -174,14 +174,25 @@
 
 
 
-                    <div class="max-w-sm bg-white rounded-lg shadow-lg">
+                    <div class="max-w-sm bg-white rounded-lg shadow-lg mx-auto">
                         <a href="#">
-                            <img class="object-cover rounded-t-lg" src="assets/image/datahive-app.webp" alt="Datahive" />
+                            <img class="object-cover rounded-t-lg" src="./assets/image/datahive-app.webp" alt="Datahive" />
                         </a>
                         <div class="p-5">
                             <p class="text-base font-normal text-gray-400">Mobile App Development</p>
 
                             <a href="https://play.google.com/store/apps/details?id=com.datahiveorg.datahive&pli=1" target="_blank" class="block text-xl font-semibold text-gray-700 transition duration-300 ease-in-out md:text-2xl hover:text-bee-yellow">DataHive</a>
+                        </div>
+                    </div>
+                    
+                    <div class="max-w-sm bg-white rounded-lg shadow-lg mx-auto">
+                        <a href="">
+                            <img class="object-cover rounded-t-lg" src="./assets/image/makadara-portrait.png" alt="Datahive" />
+                        </a>
+                        <div class="p-5">
+                            <p class="text-base font-normal text-gray-400">Web App Development</p>
+
+                            <a href="https://makadara.000webhostapp.com/" target="_blank" class="block text-xl font-semibold text-gray-700 transition duration-300 ease-in-out md:text-2xl hover:text-bee-yellow">Makadara</a>
                         </div>
                     </div>
 
